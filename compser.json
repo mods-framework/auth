@@ -1,0 +1,24 @@
+{
+    "name": "mods/auth",
+    "description": "The Mods Framework.",
+    "keywords": ["framework", "mods", "auth"],
+    "license": "MIT",
+    "homepage": "https://thehackerleague.com",
+    "support": {
+        "issues": "https://github.com/mods-framework/auth/issues",
+        "source": "https://github.com/mods-framework/auth"
+    },
+    "authors": [
+        {
+            "name": "Sunel Tr",
+            "email": "sunelbe@gmail.com"
+        }
+    ],
+    "require": { 
+    },
+    "autoload": {
+        "psr-4": {
+            "Mods\\Auth\\": "src/"
+        }
+    }
+}
